@@ -1,0 +1,14 @@
+from collections import deque
+
+# deklarasi deque
+antrian = deque()
+
+def enqueue(item):
+    antrian.append(item)
+
+def dequeue():
+    antrian.popleft()    
+
+enqueue('adi')    
+enqueue('iqbal')    
+enqueue('supri')    
